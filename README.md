@@ -1,3 +1,6 @@
+如果安装之后提示：Unknown function: textobj#user#plugin 。那么你需要在：/home/用户/.vimrc中(插件安装处)加入： Plug 'kana/vim-textobj-entire/wiki' 。之后进入vim 使用 (:PlugInstall)安装新加入的内容即可。
+
+
 ![][1]
 
 An automatic configuration program for vim
